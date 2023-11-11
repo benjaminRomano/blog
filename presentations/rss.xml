@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Bromano Blog</title>
+        <link>https://benromano.com/presentations</link>
+        <description>Bromano Blog</description>
+        <lastBuildDate>Tue, 28 Jun 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Client Tracing At Scale]]></title>
+            <link>https://benromano.com/presentations/client-tracing-at-scale</link>
+            <guid>https://benromano.com/presentations/client-tracing-at-scale</guid>
+            <pubDate>Tue, 28 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[With the wide range of Android devices, it can be difficult to find the root cause of performance problems. By]]></description>
+            <content:encoded><![CDATA[<p>With the wide range of Android devices, it can be difficult to find the root cause of performance problems. By
+leveraging traces, we can begin to understand the exact circumstances that led to a poor user experience. We will
+discuss how we instrument our Snapchat app such that we can have the necessary signals for explainability. Additionally,
+we will describe how we incorporate tracing into our development process from local debugging, to performance tests and
+finally in production.</p>
+<iframe src="//player.vimeo.com/video/722553263?autopause=0&amp;autoplay=0&amp;color=00adef&amp;portrait=0&amp;byline=0&amp;title=0" webkitallowfullscreen="" mozallowfullscreen="" style="height:400px;width:100%" allowfullscreen=""></iframe>]]></content:encoded>
+            <category>droidcon</category>
+        </item>
+        <item>
+            <title><![CDATA[Attributed Everything]]></title>
+            <link>https://benromano.com/presentations/attributed-everything</link>
+            <guid>https://benromano.com/presentations/attributed-everything</guid>
+            <pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this Droidcon SF session, engineers from Snapchat's module infrastructure team will talk about various strategies]]></description>
+            <content:encoded><![CDATA[<p>In this Droidcon SF session, engineers from Snapchat's module infrastructure team will talk about various strategies
+that Snapchat uses to ensure quality for its new Android application, which has hundreds of active contributors across
+dozens of individual teams. The talk will show how proper attribution of application resources (from CPU and app size to
+frame rate) can be an effective tool for monitoring app performance and preventing regressions.</p>
+<iframe src="//player.vimeo.com/video/380845292?autopause=0&amp;autoplay=0&amp;color=00adef&amp;portrait=0&amp;byline=0&amp;title=0" webkitallowfullscreen="" mozallowfullscreen="" style="height:400px;width:100%" allowfullscreen=""></iframe>]]></content:encoded>
+            <category>droidcon</category>
+        </item>
+    </channel>
+</rss>
