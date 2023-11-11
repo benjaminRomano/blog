@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[713],{3457:l=>{l.exports=JSON.parse('[{"label":"sampling profiler","permalink":"/blog/tags/sampling-profiler","count":1}]')}}]);

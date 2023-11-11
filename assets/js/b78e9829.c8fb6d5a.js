@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[648],{5952:s=>{s.exports=JSON.parse('{"label":"droidcon","permalink":"/blog/presentations/tags/droidcon","allTagsPath":"/blog/presentations/tags","count":2,"unlisted":false}')}}]);

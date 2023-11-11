@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[906],{4298:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Client Tracing At Scale","permalink":"/blog/presentations/client-tracing-at-scale","unlisted":false},{"title":"Attributed Everything","permalink":"/blog/presentations/attributed-everything","unlisted":false}]}')}}]);
