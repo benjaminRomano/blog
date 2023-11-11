@@ -1,0 +1,97 @@
+<row>
+    <sample-time id="177" fmt="00:00.440.108">440108148</sample-time>
+    <thread id="178"
+        fmt="_dispatch_workloop_worker_thread  0x61fc (com.apple.dt.instruments.dtsecurity, pid: 3327)">
+        <tid id="179" fmt="0x61fc">25084</tid>
+        <process id="180" fmt="com.apple.dt.instruments.dtsecurity (3327)">
+            <pid id="181" fmt="3327">3327</pid>
+            <device-session ref="6" />
+        </process>
+    </thread>
+    <process ref="180" />
+    <core ref="65" />
+    <thread-state ref="8" />
+    <weight ref="9" />
+    <backtrace id="182">
+        <frame id="183" name="tiny_malloc_should_clear" addr="0x7ff813c8cd06">
+            <binary id="184" name="libsystem_malloc.dylib"
+                UUID="400F0381-15D2-38EB-A5CD-CDC7A8053A18" arch="x86_64" load-addr="0x7ff813c8a000"
+                path="/usr/lib/system/libsystem_malloc.dylib" />
+        </frame>
+        <frame id="185" name="szone_malloc_should_clear" addr="0x7ff813c8bc3a">
+            <binary ref="184" />
+        </frame>
+        <frame id="186" name="__CFBasicHashRehash" addr="0x7ff813ed35a4">
+            <binary id="187" name="CoreFoundation" UUID="D148CF66-0478-3100-A9D6-0571B6F769E3"
+                arch="x86_64h" load-addr="0x7ff813ecd000"
+                path="/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation" />
+        </frame>
+        <frame id="188" name="__CFBasicHashAddValue" addr="0x7ff813ed3145">
+            <binary ref="187" />
+        </frame>
+        <frame id="189" name="CFBasicHashAddValue" addr="0x7ff813ef0e4b">
+            <binary ref="187" />
+        </frame>
+        <frame id="190" name="SecCertificateParse" addr="0x7ff816b59b11">
+            <binary id="191" name="Security" UUID="ACC72EC7-5036-3507-88AE-71961B51A297"
+                arch="x86_64" load-addr="0x7ff816a39000"
+                path="/System/Library/Frameworks/Security.framework/Versions/A/Security" />
+        </frame>
+        <frame id="192" name="SecCertificateCreateWithData" addr="0x7ff816a3b164">
+            <binary ref="191" />
+        </frame>
+        <frame id="193" name="SecCertificateCreateFromData" addr="0x7ff816a958aa">
+            <binary ref="191" />
+        </frame>
+        <frame id="194" name="CERT_VerifyCert" addr="0x7ff816bea7fa">
+            <binary ref="191" />
+        </frame>
+        <frame id="195" name="SecCmsSignedDataVerifySignerInfo_internal" addr="0x7ff816bf37d0">
+            <binary ref="191" />
+        </frame>
+        <frame id="196" name="CMSDecoderCopySignerStatus" addr="0x7ff816bf3f60">
+            <binary ref="191" />
+        </frame>
+        <frame id="197" name="Security::CodeSigning::SecStaticCode::validateDirectory()"
+            addr="0x7ff816c0ace2">
+            <binary ref="191" />
+        </frame>
+        <frame id="198" name="Security::CodeSigning::SecStaticCode::validateNonResourceComponents()"
+            addr="0x7ff816c0e085">
+            <binary ref="191" />
+        </frame>
+        <frame id="199" name="Security::CodeSigning::SecCode::checkValidity(unsigned int)"
+            addr="0x7ff816bf86bc">
+            <binary ref="191" />
+        </frame>
+        <frame id="200" name="SecCodeCheckValidityWithErrors" addr="0x7ff816c0149f">
+            <binary ref="191" />
+        </frame>
+        <frame id="201" name="xpc_support_evaluate_connection" addr="0x10db43f97">
+            <binary id="202" name="support" UUID="C3C8DA02-4D37-3882-90D2-345F3296E1EB"
+                arch="x86_64" load-addr="0x10db42000"
+                path="/usr/lib/xpc/support.bundle/Contents/MacOS/support" />
+        </frame>
+        <frame id="203" name="_xpc_connection_mach_event" addr="0x7ff813b8c2d4">
+            <binary id="204" name="libxpc.dylib" UUID="348B362E-DBA7-3BFD-AEBF-C9DAF5935CA8"
+                arch="x86_64" load-addr="0x7ff813b80000" path="/usr/lib/system/libxpc.dylib" />
+        </frame>
+        <frame id="205" name="_dispatch_client_callout4" addr="0x7ff813cc6634">
+            <binary id="206" name="libdispatch.dylib" UUID="4472F1A5-1D47-3665-AC8D-7ADB0E9D2D87"
+                arch="x86_64" load-addr="0x7ff813cc3000" path="/usr/lib/system/libdispatch.dylib" />
+        </frame>
+        <frame id="207" name="_dispatch_mach_msg_invoke" addr="0x7ff813cdf156">
+            <binary ref="206" />
+        </frame>
+        <frame id="208" name="_dispatch_lane_serial_drain" addr="0x7ff813ccc4bb">
+            <binary ref="206" />
+        </frame>
+        <frame id="209" name="_dispatch_mach_invoke" addr="0x7ff813cdfc75">
+            <binary ref="206" />
+        </frame>
+        <frame ref="27" />
+        <frame ref="28" />
+        <frame ref="29" />
+        <frame ref="31" />
+    </backtrace>
+</row>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<trace-query-result>
+    <node xpath='//trace-toc[1]/run[1]/data[1]/table[13]'>
+        <schema name="kdebug-strings">
+            <col>
+                <mnemonic>time</mnemonic>
+                <name>Timestamp</name>
+                <engineering-type>event-time</engineering-type>
+            </col>
+            <col>
+                <mnemonic>raw-string</mnemonic>
+                <name>Raw String</name>
+                <engineering-type>raw-string</engineering-type>
+            </col>
+            <col>
+                <mnemonic>raw-string-id</mnemonic>
+                <name>Raw String ID</name>
+                <engineering-type>kdebug-string</engineering-type>
+            </col>
+            <col>
+                <mnemonic>class</mnemonic>
+                <name>Class</name>
+                <engineering-type>kdebug-class</engineering-type>
+            </col>
+            <col>
+                <mnemonic>subclass</mnemonic>
+                <name>Subclass</name>
+                <engineering-type>kdebug-subclass</engineering-type>
+            </col>
+            <col>
+                <mnemonic>code</mnemonic>
+                <name>Code</name>
+                <engineering-type>kdebug-code</engineering-type>
+            </col>
+            <col>
+                <mnemonic>function</mnemonic>
+                <name>Qualifier</name>
+                <engineering-type>kdebug-func</engineering-type>
+            </col>
+            <col>
+                <mnemonic>thread</mnemonic>
+                <name>Thread</name>
+                <engineering-type>thread</engineering-type>
+            </col>
+            <col>
+                <mnemonic>core-index</mnemonic>
+                <name>Core Index</name>
+                <engineering-type>core</engineering-type>
+            </col>
+        </schema>
+    </node>
+</trace-query-result>
