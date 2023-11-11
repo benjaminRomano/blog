@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog=self.webpackChunkblog||[]).push([[717],{8129:e=>{e.exports=JSON.parse('[{"label":"droidcon","permalink":"/blog/presentations/tags/droidcon","count":2}]')}}]);

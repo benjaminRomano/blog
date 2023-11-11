@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Bromano Blog</title>
-        <link>https://benromano.com/presentations</link>
+        <link>https://benromano.com/blog/presentations</link>
         <description>Bromano Blog</description>
         <lastBuildDate>Tue, 28 Jun 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Client Tracing At Scale]]></title>
-            <link>https://benromano.com/presentations/client-tracing-at-scale</link>
-            <guid>https://benromano.com/presentations/client-tracing-at-scale</guid>
+            <link>https://benromano.com/blog/presentations/client-tracing-at-scale</link>
+            <guid>https://benromano.com/blog/presentations/client-tracing-at-scale</guid>
             <pubDate>Tue, 28 Jun 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[With the wide range of Android devices, it can be difficult to find the root cause of performance problems. By]]></description>
             <content:encoded><![CDATA[<p>With the wide range of Android devices, it can be difficult to find the root cause of performance problems. By
@@ -24,8 +24,8 @@ finally in production.</p>
         </item>
         <item>
             <title><![CDATA[Attributed Everything]]></title>
-            <link>https://benromano.com/presentations/attributed-everything</link>
-            <guid>https://benromano.com/presentations/attributed-everything</guid>
+            <link>https://benromano.com/blog/presentations/attributed-everything</link>
+            <guid>https://benromano.com/blog/presentations/attributed-everything</guid>
             <pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[In this Droidcon SF session, engineers from Snapchat's module infrastructure team will talk about various strategies]]></description>
             <content:encoded><![CDATA[<p>In this Droidcon SF session, engineers from Snapchat's module infrastructure team will talk about various strategies
