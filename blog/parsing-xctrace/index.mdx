@@ -159,7 +159,8 @@ Now the question is, can we extract the load addresses from traces using `xctrac
 Going back to the Table of Contents, we see that there is a `kdebug` table, containing kernel debug tracepoints, and a
 `kdebug-strings` table containing strings referenced by those kernel tracepoints.
 
-Fortunately, `dyld`, the library responsible for dynamically loading libraries, does emit a
+Fortunately, `dyld`, the library responsible for
+[dynamically loading libraries](https://www.emergetools.com/glossary/dyld), does emit a
 [kdebug tracepoint](https://github.com/apple-oss-distributions/dyld/blob/c8a445f88f9fc1713db34674e79b00e30723e79d/dyld/dyldMain.cpp#L376)
 with both the binary name and load address.
 

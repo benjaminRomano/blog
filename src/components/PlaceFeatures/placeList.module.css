@@ -1,0 +1,152 @@
+.filters {
+    display: flex;
+    gap: 4px;
+}
+
+.filterButton {
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.searchBar {
+    align-items: center;
+    display: flex;
+    margin: 8px 0px 8px 0;
+    height: 30px;
+}
+
+.searchInput {
+    margin: auto;
+    border-radius: 16px;
+    border: 2px solid lightgray;
+    padding: 4px;
+    width: 300px;
+    margin-top: 4px;
+    margin: 12px auto 12px auto;
+}
+
+.list {
+    padding-left: 0px;
+    overflow-y: auto;
+    /* Factor in search bar */
+    height: calc(100vh - 135px);
+}
+
+.place {
+    display: flex;
+    gap: 10px;
+    padding: 6px;
+    padding-left: 0px;
+    min-width: 0px;
+    border-bottom: 1px solid lightgray;
+    /* Account for scrollbar */
+    padding-right: 16px;
+}
+
+.tags {
+    display: flex;
+    gap: 4px;
+    /* Show scrollbar when tags overflow */
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    min-width: 0px;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+}
+
+.titleText {
+    display: inline-block;
+    margin-bottom: 0px;
+    font-weight: bold;
+    flex-grow:1;
+}
+
+.location {
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 0px;
+    flex-grow: 1;
+    margin-top: 2px;
+}
+
+.tag {
+    background-color: #3498db;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 6px;
+    font-size: 11px;
+    display: inline-block;
+}
+
+.placeImage {
+    border-radius: 12px;
+}
+
+.favorites {
+    border-radius: 16px;
+    width: fit-content;
+    border: 1px solid lightgray;
+    padding: 6px;
+    font-size: 11px;
+    background-color: white;
+    border-color: #fb507c;
+    color: #fb507c;
+}
+
+.favoritesSelected {
+    background-color: #fb507c;
+    border-color: lightgray;
+    color: white;
+}
+
+.wantToGo {
+    border-radius: 16px;
+    width: fit-content;
+    border: 1px solid lightgray;
+    padding: 6px;
+    font-size: 11px;
+    background-color: white;
+    border-color: #178038;
+    color: #178038;
+}
+
+.wantToGoSelected {
+    background-color: #178038;
+    border-color: lightgray;
+    color: white;
+}
+
+.pizza {
+    border-radius: 16px;
+    width: fit-content;
+    border: 1px solid lightgray;
+    padding: 6px;
+    font-size: 11px;
+    background-color: white;
+    border-color: #FF8300;
+    color: #FF8300;
+}
+
+.pizzaSelected {
+    background-color: #FFD514;
+    border-color: #FF8300;
+    color: #FF8300;
+}
+
+.counter {
+    font-style: italic;
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: -6px;
+    margin-left: 4px;
+}

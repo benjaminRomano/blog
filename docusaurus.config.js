@@ -6,6 +6,12 @@
 
 const lightCodeTheme = require("prism-react-renderer").themes.github;
 const darkCodeTheme = require("prism-react-renderer").themes.dracula;
+const fs = require("fs");
+
+let apiKey = "AIzaSyDyjzvENCXnzolUK48OsmQVNvpLB-CSTNQ";
+if (process.env.NODE_ENV === "development") {
+  apiKey = require("./keys.json")["internal_ip_api_key"];
+}
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -18,7 +24,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
-
+  staticDirectories: ["public", "static"],
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "benjaminromano", // Usually your GitHub org/user name.
@@ -27,6 +33,9 @@ const config = {
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+  customFields: {
+    GOOGLE_MAPS_API_KEY: apiKey,
+  },
   plugins: [
     [
       "@docusaurus/plugin-content-blog",
@@ -74,11 +83,7 @@ const config = {
         items: [
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/presentations", label: "Presentations", position: "left" },
-          {
-            href: "https://github.com/benjaminromano/blog",
-            label: "GitHub",
-            position: "right",
-          },
+          { to: "/places-in-la", label: "Places In LA", position: "right" },
         ],
       },
       footer: {
