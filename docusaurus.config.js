@@ -9,7 +9,7 @@ const darkCodeTheme = require("prism-react-renderer").themes.dracula;
 const fs = require("fs");
 
 let apiKey = "AIzaSyDyjzvENCXnzolUK48OsmQVNvpLB-CSTNQ";
-if (process.env.NODE_ENV === "development") {
+if (process.env.GIT_USER == null) {
   apiKey = require("./keys.json")["internal_ip_api_key"];
 }
 
